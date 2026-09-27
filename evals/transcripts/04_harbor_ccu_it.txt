@@ -1,0 +1,37 @@
+Discovery call: Harbor Community Credit Union, IT Service Desk
+Date: 2026-09-18 | Duration: 36 min
+Attendees: Linda Osei (IT Manager, Harbor CCU), Ryan Park (Service Desk Analyst, Harbor CCU), Javier (PM)
+
+Javier: Can you give me the picture of your IT team and the service desk?
+
+Linda: We're a credit union with 14 branches and about 400 employees. IT is nine people, and three of them work the service desk. We use a ticketing platform we adopted two years ago, but honestly we use maybe a third of it.
+
+Ryan: We get about 250 tickets a week. Password resets, printer issues at branches, access requests for the core banking system, new hire setups. Most tickets come in by email and people write things like "computer not working" with zero detail.
+
+Javier: What happens with a ticket like that?
+
+Ryan: I reply asking which computer, which branch, what error. They answer the next day. Then I categorize it by hand. Half our tickets are in the category "Other" because categorizing takes too long.
+
+Linda: And that "Other" category is my problem. When the board asks what IT is spending time on, I can't answer with data. I go in with gut feel.
+
+Javier: Tell me about access requests.
+
+Linda: That's the sensitive one. Access to core banking needs manager approval and a quarterly review for our auditors. Right now approvals happen in email threads. Last audit we got a finding because we couldn't show approval evidence for eleven accounts.
+
+Javier: That's a compliance risk, not just an efficiency one.
+
+Linda: Exactly. Another finding next year and it goes to the board as a repeat issue.
+
+Ryan: New hires are painful too. HR emails us a name two days before the start date. We scramble to set up the laptop, email, core banking access. Twice this year someone started with no working login.
+
+Javier: Do you have a knowledge base?
+
+Ryan: We have about 40 articles. Nobody reads them. Employees don't know they exist and the articles are outdated.
+
+Javier: Who would approve new tooling here, and what are your constraints?
+
+Linda: I own the budget, the CFO signs above a threshold. Constraint number one is member data. Nothing with member account information can leave our environment. Staff tickets are fine, but we'd need our vendor risk process for any new AI tool.
+
+Javier: If we could do one thing first?
+
+Linda: Fix access approvals so we pass the audit. Second, get tickets categorized properly so I can finally report to the board.

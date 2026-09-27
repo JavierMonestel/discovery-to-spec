@@ -1,0 +1,39 @@
+Discovery call: Lumen Learning Studio
+Date: 2026-09-21 | Duration: 30 min
+Attendees: Priya Nair (Head of Content, Lumen), Diego Castillo (Video Producer, Lumen), Javier (PM)
+
+Javier: What does Lumen do and how big is the team?
+
+Priya: We make online video courses for professionals, mostly data and finance skills. We sell to companies that buy seats for their employees. About 70 people, we publish roughly 12 new lessons a week across 25 courses.
+
+Javier: Where does it get hard?
+
+Priya: Knowing what's working. Our video platform gives us drop-off charts per lesson. I know lesson 4 of the Excel course loses 40 percent of viewers in the first two minutes. But nobody has time to watch it and figure out why, and there are hundreds of lessons.
+
+Diego: And the learner comments are a gold mine that nobody reads. We get maybe 300 comments a week across courses. People say things like "the audio drops at minute 3" or "this formula is wrong on the slide". We find out weeks later.
+
+Javier: How do you handle those comments today?
+
+Diego: I skim them on Fridays when I have time. Which is not often. Last month a wrong formula sat in a finance lesson for five weeks. A corporate customer flagged it in their renewal call.
+
+Priya: That renewal is worth about 90 thousand dollars a year. They renewed, but they made a point of it.
+
+Javier: What else takes your team's time?
+
+Diego: Repurposing. Every lesson should become a short clip for LinkedIn, a summary for the course page, and chapter markers. We do it for maybe 20 percent of lessons because it's all manual.
+
+Priya: Marketing keeps asking for more clips. The ones we post do well, they drive demo requests.
+
+Javier: What tools are in play?
+
+Diego: Our video platform, Google Drive for scripts, Notion for the content calendar, and our website is on a headless CMS.
+
+Javier: Who decides on tooling, and what does success look like?
+
+Priya: I do, with our COO. Success is that every week I get a short list of the lessons that need fixing and why, and that learner-reported errors get fixed in days, not weeks. Budget exists but I need to show impact on completion rates by next quarter.
+
+Diego: And please, no tool that needs me to learn a whole new platform. I live in Notion.
+
+Javier: If we did one thing first?
+
+Priya: Triage the learner comments so errors reach the right person fast. That's our biggest risk with corporate customers.

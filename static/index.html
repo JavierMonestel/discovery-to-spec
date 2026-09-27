@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Discovery to Spec</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <aside class="rail">
+    <a class="wordmark" href="#/">Discovery <span>to</span> Spec</a>
+
+    <nav class="rail-nav">
+      <a href="#/new" data-nav="new">New analysis</a>
+      <a href="#/evals" data-nav="evals">Evals</a>
+    </nav>
+
+    <div class="rail-label">Accounts</div>
+    <ul class="accounts" id="accounts"></ul>
+
+    <div class="rail-foot" id="status"></div>
+  </aside>
+
+  <main id="main"></main>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

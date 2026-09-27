@@ -1,0 +1,39 @@
+Discovery call: Brightline Media
+Date: 2026-09-14 | Duration: 34 min
+Attendees: Dana Whitfield (VP Client Services, Brightline), Marcus Lee (Paid Media Lead, Brightline), Javier (PM)
+
+Javier: Thanks for making time. Can you walk me through what a normal week looks like for your paid media team?
+
+Dana: Sure. We're about 45 people, we run paid social and search for roughly 30 retainer clients, mostly e-commerce and a few healthcare groups. The media buying itself is fine. The thing that is killing us is reporting.
+
+Marcus: Every Monday each strategist pulls numbers from Meta Ads Manager, Google Ads and sometimes TikTok, pastes them into a Google Sheet, then builds a slide deck for the client. For a bigger client that's easily six hours a week, per client.
+
+Javier: Six hours per client, every week?
+
+Marcus: For the big ones, yes. The smaller ones maybe two or three. And honestly the numbers are the easy part. The hard part is writing the commentary, like why CPA went up, what we're changing next week.
+
+Dana: And that commentary is where quality varies a lot. Our senior people write great insights. Junior people basically describe the chart. Clients notice. We lost a client in July and the exit feedback literally said the reports felt generic.
+
+Javier: That's a clear cost. What tools do you use today for the data pull?
+
+Marcus: We tried Supermetrics to push data into Sheets. It works, but the sheets break when someone renames a campaign. Naming conventions are all over the place, every strategist does it differently.
+
+Dana: If I'm honest, naming is its own problem. When we onboard a new strategist it takes them about a month before they build campaigns our way.
+
+Javier: What would success look like three months from now?
+
+Dana: Reports done in under an hour per client, and the commentary sounds like our best strategist wrote it. And I want to be able to see across all 30 clients which accounts are trending badly before the client tells us.
+
+Marcus: Also, and this is small, clients keep asking for a Spanish version of the report. We have a few clients in Mexico and Colombia. Right now we don't offer that.
+
+Javier: Who would sign off on a tool like this?
+
+Dana: Me. I have budget for this quarter, we set aside money for automation. But the strategists have to actually use it. We bought a dashboard tool last year and nobody opened it after the first month.
+
+Javier: That's really useful. Any data concerns, especially with the healthcare clients?
+
+Dana: Yes. For healthcare we cannot put any patient info anywhere, but the ad data is aggregated, so it should be fine. Legal will want to review anything new though.
+
+Javier: Last one. If we could only fix one thing first, what would it be?
+
+Dana: The weekly report commentary. That is where we're losing clients.

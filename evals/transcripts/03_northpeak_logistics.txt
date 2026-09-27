@@ -1,0 +1,39 @@
+Discovery call: Northpeak Logistics
+Date: 2026-09-17 | Duration: 31 min
+Attendees: Greg Holloway (Director of Customer Operations, Northpeak), Aisha Grant (Support Team Lead, Northpeak), Javier (PM)
+
+Javier: Thanks both. What does Northpeak do, and where does your team fit?
+
+Greg: We're a third-party logistics provider, warehousing and fulfillment for about 120 online brands. Around 300 people total. My team handles everything the brands send us, plus escalations from their end customers.
+
+Aisha: Our shared inbox gets about 900 emails a day. Where is my shipment, can you change this address, why was this order split, damaged item claims, inventory questions. Eight agents work that inbox.
+
+Javier: How do emails get to the right person today?
+
+Aisha: They don't, really. Everyone grabs from the top. Urgent things like a brand saying a whole truckload is missing sit next to someone asking for a tracking number. Last month a big brand's escalation sat for two days and they almost left us.
+
+Greg: That brand is about 8 percent of our revenue. That was a very uncomfortable call.
+
+Javier: What share of those 900 emails are simple status questions?
+
+Aisha: I'd guess 60 percent are "where is my order". The answer is in our warehouse system, agents just look it up and paste it. It takes maybe three or four minutes each, but it adds up to most of the day.
+
+Javier: Can the warehouse system be queried by other tools?
+
+Greg: It has an API, but it's old. Our IT guy says it's doable but slow. We also have everything in Zendesk now, we moved the inbox there in June.
+
+Javier: How do you measure the team today?
+
+Aisha: First response time. Our target is four hours, we're averaging eleven. Brands see that number in our quarterly review.
+
+Greg: And I have no idea which brands are generating the most tickets or why. If I knew that one brand's packaging causes half the damage claims, I could fix it at the source.
+
+Javier: Who approves a project like this?
+
+Greg: Me and our COO. The COO will ask about accuracy. If an automated reply tells a customer the wrong delivery date, that's worse than a slow reply.
+
+Aisha: My agents are also nervous. They think automation means layoffs. I'd need to position it as taking the boring stuff off their plate.
+
+Javier: If we fixed one thing first?
+
+Greg: Get urgent brand escalations to the top of the queue so nothing like last month happens again.

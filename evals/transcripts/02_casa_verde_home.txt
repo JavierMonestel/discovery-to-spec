@@ -1,0 +1,39 @@
+Discovery call: Casa Verde Home
+Date: 2026-09-16 | Duration: 28 min
+Attendees: Sofia Ramirez (Founder and CEO, Casa Verde), Tom Becker (E-commerce Manager, Casa Verde), Javier (PM)
+
+Javier: Tell me a bit about Casa Verde and how the online store runs today.
+
+Sofia: We sell sustainable home goods, furniture, planters, textiles. About 60 employees, most of them in the warehouse. The store is on Shopify and we launch around 80 new products every month.
+
+Tom: And every one of those products needs a description, SEO title, meta description, alt text for the images, and then the same thing in Spanish for the Mexico store. I have one copywriter. She is completely underwater.
+
+Javier: How long does one product take today?
+
+Tom: Around 40 minutes if it's simple, more if it's furniture with dimensions and materials. We have a backlog of about 200 products that are live with a placeholder description. Those pages barely convert.
+
+Sofia: That backlog is money sitting on the table. Our conversion on pages with a real description is about double the ones with the placeholder.
+
+Javier: Where does the product information come from?
+
+Tom: The supplier sends a spec sheet, usually a PDF or an Excel file. Materials, dimensions, care instructions. Then our copywriter rewrites it in our brand voice. We have a brand voice guide, it's a Google Doc, but nobody really follows it consistently.
+
+Sofia: The voice matters to me. We're warm, a bit playful, and we never use greenwashing language. We got called out on Instagram once for saying a product was eco-friendly when only the packaging was.
+
+Javier: So accuracy on sustainability claims is a hard requirement.
+
+Sofia: Absolutely. Anything that says recycled, organic, or carbon neutral has to be backed by the supplier sheet.
+
+Tom: The Spanish store is the other headache. We use a translation plugin and it's awful. Things like "throw pillow" come out as a literal translation. Customers in Mexico message us confused.
+
+Javier: How do you know which product pages are underperforming?
+
+Tom: Shopify analytics, but I look at it maybe once a month. There's no process.
+
+Javier: Who would approve new tooling?
+
+Sofia: Me, and I'd want Tom to own it. Budget is tight, we're a small team, so it has to pay back fast. If it clears the backlog in a month, that alone justifies it.
+
+Javier: If we did one thing first?
+
+Tom: Clear the 200 product backlog with descriptions that sound like us and don't make claims we can't back up.

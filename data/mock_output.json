@@ -1,0 +1,45 @@
+{
+  "account": {
+    "company": "Brightline Media",
+    "industry": "Paid media agency",
+    "size": "About 45 employees, 30 retainer clients",
+    "stakeholders": [
+      {"name": "Dana Whitfield", "role": "VP Client Services", "stance": "decision maker"},
+      {"name": "Marcus Lee", "role": "Paid Media Lead", "stance": "champion"}
+    ]
+  },
+  "summary": "Brightline's strategists spend up to six hours per client each week building paid media reports, and the commentary quality depends on who writes it. Generic reporting already cost them a client in July. Dana has budget this quarter but adoption is the main risk after a failed dashboard purchase.",
+  "workflows": [
+    {"name": "Weekly client reporting", "current_state": "Strategists pull Meta, Google Ads and TikTok data into Google Sheets, then build a slide deck per client.", "pain": "Up to six hours per large client per week, mostly on commentary.", "tools": ["Meta Ads Manager", "Google Ads", "TikTok Ads", "Google Sheets", "Supermetrics"], "evidence": "For a bigger client that's easily six hours a week, per client."},
+    {"name": "Campaign setup and naming", "current_state": "Each strategist names campaigns their own way.", "pain": "Breaks Supermetrics sheets and slows onboarding of new strategists.", "tools": ["Supermetrics"], "evidence": "Naming conventions are all over the place, every strategist does it differently."}
+  ],
+  "gaps": [
+    {"title": "Consistent report commentary", "description": "Generate weekly performance commentary (what changed, why, what we do next) in the voice of the best strategists.", "category": "reporting", "impact": 5, "effort": 2, "ai_solvable": true, "evidence": "The weekly report commentary. That is where we're losing clients."},
+    {"title": "Portfolio early warning", "description": "Flag clients whose KPIs are trending badly across all 30 accounts before the client notices.", "category": "analytics", "impact": 4, "effort": 3, "ai_solvable": true, "evidence": "I want to be able to see across all 30 clients which accounts are trending badly before the client tells us."},
+    {"title": "Campaign naming standard", "description": "Enforce a naming convention at campaign creation so data pipelines stop breaking.", "category": "data-quality", "impact": 3, "effort": 2, "ai_solvable": true, "evidence": "the sheets break when someone renames a campaign"},
+    {"title": "Spanish report versions", "description": "Offer reports in Spanish for clients in Mexico and Colombia.", "category": "content", "impact": 2, "effort": 1, "ai_solvable": true, "evidence": "clients keep asking for a Spanish version of the report"},
+    {"title": "New strategist onboarding", "description": "Shorten the month it takes new strategists to build campaigns the Brightline way.", "category": "enablement", "impact": 2, "effort": 3, "ai_solvable": true, "evidence": "it takes them about a month before they build campaigns our way"}
+  ],
+  "health": {"score": 58, "label": "at risk", "drivers": ["Lost a client in July over generic reports", "Budget set aside this quarter", "Strong executive sponsor (Dana)", "Past tool had poor adoption"]},
+  "brief": {
+    "problem": "Brightline strategists spend up to six hours per client each week on reports, and inconsistent commentary is costing client retention.",
+    "goals": ["Report prep under one hour per client", "Commentary quality consistent across all strategists", "Early visibility of at-risk client accounts"],
+    "users": ["Paid media strategists (daily)", "Marcus Lee, Paid Media Lead (owner)", "Dana Whitfield, VP Client Services (approver)"],
+    "in_scope": ["AI commentary draft from weekly Meta and Google Ads data", "Strategist review and edit step before sending"],
+    "out_of_scope": ["Replacing Supermetrics", "Automated sending to clients", "TikTok data in v1"],
+    "success_metrics": ["Report prep from ~6 hours to under 1 hour for large clients", "80% of strategists using it weekly after 30 days", "Zero reports flagged as generic in client feedback"],
+    "risks": ["Low adoption, as with last year's dashboard tool", "Legal review for healthcare clients", "Messy campaign naming breaks data inputs"],
+    "open_questions": ["Which three reports represent the best commentary to use as examples?", "What does legal need to approve for healthcare clients?", "Is TikTok data needed for v1?"]
+  },
+  "skill_spec": {
+    "name": "weekly-ads-commentary",
+    "description": "Drafts weekly paid media performance commentary for a client report from Meta and Google Ads data. Use when a strategist has the week's metrics and needs the what changed, why, and next steps section.",
+    "solves_gap": "Consistent report commentary",
+    "inputs": ["This week and last week metrics per campaign (spend, CPA, ROAS, CTR)", "Client goals and KPI targets", "Notes on changes made this week"],
+    "steps": ["Compare week over week per campaign and flag moves over 15%", "Explain likely causes using the change notes", "Recommend two or three concrete next steps", "Write in Brightline's voice using the example reports"],
+    "outputs": ["Three to five commentary paragraphs", "Next week action list", "Optional Spanish version"],
+    "guardrails": ["Never invent metrics not present in the data", "Mark causes as likely, not certain", "No patient or personal data for healthcare clients"],
+    "integrations": ["Google Sheets (Supermetrics export)", "Slack for strategist review"],
+    "skill_md": "---\nname: weekly-ads-commentary\ndescription: Drafts weekly paid media performance commentary for a client report from Meta and Google Ads data. Use when a strategist has the week's metrics and needs the what changed, why, and next steps section.\n---\n\n# Weekly Ads Commentary\n\n## Inputs\n- Weekly metrics per campaign (spend, CPA, ROAS, CTR), this week and last week\n- Client goals and KPI targets\n- Strategist notes on changes made\n\n## Steps\n1. Compare week over week and flag any metric that moved more than 15%.\n2. Explain the likely cause using the strategist notes. Say likely, not certain.\n3. Recommend two or three concrete next steps.\n4. Match the tone of the example reports in references/examples.md.\n\n## Guardrails\n- Never invent numbers that are not in the data.\n- No personal or patient data.\n"
+  }
+}

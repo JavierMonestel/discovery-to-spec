@@ -1,0 +1,27 @@
+{
+  "01_brightline_media.txt": {
+    "account": "Brightline",
+    "must_mention": ["report", "commentary", "naming"],
+    "top_priority_keywords": ["report", "commentary", "insight"]
+  },
+  "02_casa_verde_home.txt": {
+    "account": "Casa Verde",
+    "must_mention": ["description", "spanish", "claim"],
+    "top_priority_keywords": ["description", "backlog", "product"]
+  },
+  "03_northpeak_logistics.txt": {
+    "account": "Northpeak",
+    "must_mention": ["escalation", "status", "brand"],
+    "top_priority_keywords": ["escalation", "triage", "urgent", "priorit"]
+  },
+  "04_harbor_ccu_it.txt": {
+    "account": "Harbor",
+    "must_mention": ["access", "categor", "new hire"],
+    "top_priority_keywords": ["access", "approval", "audit", "categor"]
+  },
+  "05_lumen_learning.txt": {
+    "account": "Lumen",
+    "must_mention": ["comment", "drop", "clip"],
+    "top_priority_keywords": ["comment", "triage", "error"]
+  }
+}
